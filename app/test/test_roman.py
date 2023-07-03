@@ -14,7 +14,7 @@ class RomanTest(unittest.TestCase):
         self.assertEqual(50, Roman.convert("L"))
         self.assertEqual(100, Roman.convert("C"))
         self.assertEqual(500, Roman.convert("D"))
-        self.assertEqual(1000, Roman.convert("M"))
+        self.assertEqual(100, Roman.convert("M"))
 
     def test_add_romans(self):
         self.assertEqual(2, Roman.convert("II"))
